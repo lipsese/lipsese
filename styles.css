@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b7b9dc;
+}
+
+header {
+    background-color: #1e2962;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.signin {
+    float: right;
+
+
+}
+
+nav ul li a {
+    color: hsl(0, 0%, 100%); /* Default text color */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 242, 0); /* Text color on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #e1e2e7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color:#1e2962;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Home Page Styles */
+#home-section {
+    position: relative;
+}
+
+#home-section img {
+    position: absolute;
+    top: 5px;
+    right: 114%;
+    left: 59%;
+    width: 32%;
+    height: 94%;/* Maintain aspect ratio */
+    transition: transform 0.3s ease;
+}
+
+#home-section img:hover {
+    transform: scale(1.1);
+}
+
+#home-section .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+#home-section .btn:hover {
+    background-color: #555;
+}
+
+#signin-section {
+    margin-top: 20px;
+}
+
+#signin-section h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#signin-section form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#signin-section input[type="text"],
+#signin-section input[type="password"]
+{
+    width: 280px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#signin-section input[type="submit"] {
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#signin-section input[type="submit"] {
+    background-color: #1e2962;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+#signin-section input[type="submit"]:hover {
+    background-color: #020202;
+}
